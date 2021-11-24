@@ -1,0 +1,17 @@
+{
+  "name": "testcafe-poc",
+  "version": "1.0.0",
+  "description": "TestCafe Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4"
+  },
+  "devDependencies": {
+    "testcafe": "^1.17.1"
+  }
+}

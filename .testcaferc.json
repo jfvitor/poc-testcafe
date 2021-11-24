@@ -1,0 +1,24 @@
+{
+    "browsers": ["chrome","firefox"],
+    "src": "tests",
+    "screenshots": {
+        "path": "screenshots",
+        "takeOnFails": true,
+        "pathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
+    },
+    "userVariables": {
+        "url": "https://qa-rows.com"
+      },
+    "quarantineMode": false,
+    "skipJsErrors":true,
+    "debugMode": false,
+    "debugOnFail": true,
+    "stopOnFirstFail": false,
+    "qrCode": false,
+    "color": true,
+    "concurrency": 1,
+    "selectorTimeout": 3000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 1000,
+    "speed": 0.8
+}
