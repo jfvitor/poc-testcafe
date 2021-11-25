@@ -1,4 +1,4 @@
-import { Selector, t } from "testcafe";
+import { Selector } from "testcafe";
 import { userTwo } from "../helpers/roles";
 import * as createApp from '../page-object/page-model';
 
